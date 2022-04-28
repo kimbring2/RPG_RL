@@ -1,4 +1,4 @@
-# MMORPG_RL
+# RPG_RL
 Playing the MMORPG using the Deep Reinforcement Learning. The Nethack and Diablo1 game will be used for environment.
 
 # Reference
