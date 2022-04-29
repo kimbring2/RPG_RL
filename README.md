@@ -4,6 +4,8 @@ Playing the MMORPG using the Deep Reinforcement Learning. The Nethack and Diablo
 # Reference
 1. NetHack: https://github.com/facebookresearch/nle
 2. NetHack Visualization: https://github.com/maciej-sypetkowski/autoascend
+3. Diablo1 for Linux: https://github.com/diasurgical/devilutionX
+4. Vizdoom: https://github.com/mwydmuch/ViZDoom
 
 # NetHack
 Visualization tool is added to original NLE of Facebook code.
