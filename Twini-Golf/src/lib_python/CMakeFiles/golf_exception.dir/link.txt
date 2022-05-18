@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -std=c++14 -O3 -Wall -m64 -I include -std=c++14 -O3 -Wall -m64 -I include -shared -Wl,-soname,libgolf_exception.so -o libgolf_exception.so CMakeFiles/golf_exception.dir/__/lib/ViZGolfExceptions.cpp.o   -L/home/kimbring2/Twini-Golf 

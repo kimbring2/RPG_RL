@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -std=c++14 -O3 -Wall -m64 -I include -std=c++14 -O3 -Wall -m64 -I include -shared -Wl,-soname,libgolf_shared_memory.so -o libgolf_shared_memory.so CMakeFiles/golf_shared_memory.dir/__/lib/ViZGolfSharedMemory.cpp.o   -L/home/kimbring2/Twini-Golf 
