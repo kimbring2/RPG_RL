@@ -186,54 +186,6 @@ vizgolf/fast:
 	cd /home/kimbring2/Twini-Golf && $(MAKE) $(MAKESILENT) -f src/lib_python/CMakeFiles/vizgolf.dir/build.make src/lib_python/CMakeFiles/vizgolf.dir/build
 .PHONY : vizgolf/fast
 
-ViZGolfGamePython.o: ViZGolfGamePython.cpp.o
-.PHONY : ViZGolfGamePython.o
-
-# target to build an object file
-ViZGolfGamePython.cpp.o:
-	cd /home/kimbring2/Twini-Golf && $(MAKE) $(MAKESILENT) -f src/lib_python/CMakeFiles/vizgolf.dir/build.make src/lib_python/CMakeFiles/vizgolf.dir/ViZGolfGamePython.cpp.o
-.PHONY : ViZGolfGamePython.cpp.o
-
-ViZGolfGamePython.i: ViZGolfGamePython.cpp.i
-.PHONY : ViZGolfGamePython.i
-
-# target to preprocess a source file
-ViZGolfGamePython.cpp.i:
-	cd /home/kimbring2/Twini-Golf && $(MAKE) $(MAKESILENT) -f src/lib_python/CMakeFiles/vizgolf.dir/build.make src/lib_python/CMakeFiles/vizgolf.dir/ViZGolfGamePython.cpp.i
-.PHONY : ViZGolfGamePython.cpp.i
-
-ViZGolfGamePython.s: ViZGolfGamePython.cpp.s
-.PHONY : ViZGolfGamePython.s
-
-# target to generate assembly for a file
-ViZGolfGamePython.cpp.s:
-	cd /home/kimbring2/Twini-Golf && $(MAKE) $(MAKESILENT) -f src/lib_python/CMakeFiles/vizgolf.dir/build.make src/lib_python/CMakeFiles/vizgolf.dir/ViZGolfGamePython.cpp.s
-.PHONY : ViZGolfGamePython.cpp.s
-
-ViZGolfPythonModule.o: ViZGolfPythonModule.cpp.o
-.PHONY : ViZGolfPythonModule.o
-
-# target to build an object file
-ViZGolfPythonModule.cpp.o:
-	cd /home/kimbring2/Twini-Golf && $(MAKE) $(MAKESILENT) -f src/lib_python/CMakeFiles/vizgolf.dir/build.make src/lib_python/CMakeFiles/vizgolf.dir/ViZGolfPythonModule.cpp.o
-.PHONY : ViZGolfPythonModule.cpp.o
-
-ViZGolfPythonModule.i: ViZGolfPythonModule.cpp.i
-.PHONY : ViZGolfPythonModule.i
-
-# target to preprocess a source file
-ViZGolfPythonModule.cpp.i:
-	cd /home/kimbring2/Twini-Golf && $(MAKE) $(MAKESILENT) -f src/lib_python/CMakeFiles/vizgolf.dir/build.make src/lib_python/CMakeFiles/vizgolf.dir/ViZGolfPythonModule.cpp.i
-.PHONY : ViZGolfPythonModule.cpp.i
-
-ViZGolfPythonModule.s: ViZGolfPythonModule.cpp.s
-.PHONY : ViZGolfPythonModule.s
-
-# target to generate assembly for a file
-ViZGolfPythonModule.cpp.s:
-	cd /home/kimbring2/Twini-Golf && $(MAKE) $(MAKESILENT) -f src/lib_python/CMakeFiles/vizgolf.dir/build.make src/lib_python/CMakeFiles/vizgolf.dir/ViZGolfPythonModule.cpp.s
-.PHONY : ViZGolfPythonModule.cpp.s
-
 __/lib/ViZGolfController.o: __/lib/ViZGolfController.cpp.o
 .PHONY : __/lib/ViZGolfController.o
 
@@ -330,6 +282,54 @@ __/lib/ViZGolfSharedMemory.cpp.s:
 	cd /home/kimbring2/Twini-Golf && $(MAKE) $(MAKESILENT) -f src/lib_python/CMakeFiles/golf_shared_memory.dir/build.make src/lib_python/CMakeFiles/golf_shared_memory.dir/__/lib/ViZGolfSharedMemory.cpp.s
 .PHONY : __/lib/ViZGolfSharedMemory.cpp.s
 
+src/ViZGolfGamePython.o: src/ViZGolfGamePython.cpp.o
+.PHONY : src/ViZGolfGamePython.o
+
+# target to build an object file
+src/ViZGolfGamePython.cpp.o:
+	cd /home/kimbring2/Twini-Golf && $(MAKE) $(MAKESILENT) -f src/lib_python/CMakeFiles/vizgolf.dir/build.make src/lib_python/CMakeFiles/vizgolf.dir/src/ViZGolfGamePython.cpp.o
+.PHONY : src/ViZGolfGamePython.cpp.o
+
+src/ViZGolfGamePython.i: src/ViZGolfGamePython.cpp.i
+.PHONY : src/ViZGolfGamePython.i
+
+# target to preprocess a source file
+src/ViZGolfGamePython.cpp.i:
+	cd /home/kimbring2/Twini-Golf && $(MAKE) $(MAKESILENT) -f src/lib_python/CMakeFiles/vizgolf.dir/build.make src/lib_python/CMakeFiles/vizgolf.dir/src/ViZGolfGamePython.cpp.i
+.PHONY : src/ViZGolfGamePython.cpp.i
+
+src/ViZGolfGamePython.s: src/ViZGolfGamePython.cpp.s
+.PHONY : src/ViZGolfGamePython.s
+
+# target to generate assembly for a file
+src/ViZGolfGamePython.cpp.s:
+	cd /home/kimbring2/Twini-Golf && $(MAKE) $(MAKESILENT) -f src/lib_python/CMakeFiles/vizgolf.dir/build.make src/lib_python/CMakeFiles/vizgolf.dir/src/ViZGolfGamePython.cpp.s
+.PHONY : src/ViZGolfGamePython.cpp.s
+
+src/ViZGolfPythonModule.o: src/ViZGolfPythonModule.cpp.o
+.PHONY : src/ViZGolfPythonModule.o
+
+# target to build an object file
+src/ViZGolfPythonModule.cpp.o:
+	cd /home/kimbring2/Twini-Golf && $(MAKE) $(MAKESILENT) -f src/lib_python/CMakeFiles/vizgolf.dir/build.make src/lib_python/CMakeFiles/vizgolf.dir/src/ViZGolfPythonModule.cpp.o
+.PHONY : src/ViZGolfPythonModule.cpp.o
+
+src/ViZGolfPythonModule.i: src/ViZGolfPythonModule.cpp.i
+.PHONY : src/ViZGolfPythonModule.i
+
+# target to preprocess a source file
+src/ViZGolfPythonModule.cpp.i:
+	cd /home/kimbring2/Twini-Golf && $(MAKE) $(MAKESILENT) -f src/lib_python/CMakeFiles/vizgolf.dir/build.make src/lib_python/CMakeFiles/vizgolf.dir/src/ViZGolfPythonModule.cpp.i
+.PHONY : src/ViZGolfPythonModule.cpp.i
+
+src/ViZGolfPythonModule.s: src/ViZGolfPythonModule.cpp.s
+.PHONY : src/ViZGolfPythonModule.s
+
+# target to generate assembly for a file
+src/ViZGolfPythonModule.cpp.s:
+	cd /home/kimbring2/Twini-Golf && $(MAKE) $(MAKESILENT) -f src/lib_python/CMakeFiles/vizgolf.dir/build.make src/lib_python/CMakeFiles/vizgolf.dir/src/ViZGolfPythonModule.cpp.s
+.PHONY : src/ViZGolfPythonModule.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -343,12 +343,6 @@ help:
 	@echo "... golf_game"
 	@echo "... golf_shared_memory"
 	@echo "... vizgolf"
-	@echo "... ViZGolfGamePython.o"
-	@echo "... ViZGolfGamePython.i"
-	@echo "... ViZGolfGamePython.s"
-	@echo "... ViZGolfPythonModule.o"
-	@echo "... ViZGolfPythonModule.i"
-	@echo "... ViZGolfPythonModule.s"
 	@echo "... __/lib/ViZGolfController.o"
 	@echo "... __/lib/ViZGolfController.i"
 	@echo "... __/lib/ViZGolfController.s"
@@ -361,6 +355,12 @@ help:
 	@echo "... __/lib/ViZGolfSharedMemory.o"
 	@echo "... __/lib/ViZGolfSharedMemory.i"
 	@echo "... __/lib/ViZGolfSharedMemory.s"
+	@echo "... src/ViZGolfGamePython.o"
+	@echo "... src/ViZGolfGamePython.i"
+	@echo "... src/ViZGolfGamePython.s"
+	@echo "... src/ViZGolfPythonModule.o"
+	@echo "... src/ViZGolfPythonModule.i"
+	@echo "... src/ViZGolfPythonModule.s"
 .PHONY : help
 
 

@@ -90,11 +90,11 @@ src/lib_python/all: src/lib_python/CMakeFiles/golf_controller.dir/all
 src/lib_python/all: src/lib_python/CMakeFiles/golf_shared_memory.dir/all
 src/lib_python/all: src/lib_python/CMakeFiles/golf_exception.dir/all
 src/lib_python/all: src/lib_python/CMakeFiles/vizgolf.dir/all
-src/lib_python/all: src/lib_python/pybind11/all
+src/lib_python/all: src/lib_python/src/pybind11/all
 .PHONY : src/lib_python/all
 
 # Recursive "preinstall" directory target.
-src/lib_python/preinstall: src/lib_python/pybind11/preinstall
+src/lib_python/preinstall: src/lib_python/src/pybind11/preinstall
 .PHONY : src/lib_python/preinstall
 
 # Recursive "clean" directory target.
@@ -103,23 +103,23 @@ src/lib_python/clean: src/lib_python/CMakeFiles/golf_controller.dir/clean
 src/lib_python/clean: src/lib_python/CMakeFiles/golf_shared_memory.dir/clean
 src/lib_python/clean: src/lib_python/CMakeFiles/golf_exception.dir/clean
 src/lib_python/clean: src/lib_python/CMakeFiles/vizgolf.dir/clean
-src/lib_python/clean: src/lib_python/pybind11/clean
+src/lib_python/clean: src/lib_python/src/pybind11/clean
 .PHONY : src/lib_python/clean
 
 #=============================================================================
-# Directory level rules for directory src/lib_python/pybind11
+# Directory level rules for directory src/lib_python/src/pybind11
 
 # Recursive "all" directory target.
-src/lib_python/pybind11/all:
-.PHONY : src/lib_python/pybind11/all
+src/lib_python/src/pybind11/all:
+.PHONY : src/lib_python/src/pybind11/all
 
 # Recursive "preinstall" directory target.
-src/lib_python/pybind11/preinstall:
-.PHONY : src/lib_python/pybind11/preinstall
+src/lib_python/src/pybind11/preinstall:
+.PHONY : src/lib_python/src/pybind11/preinstall
 
 # Recursive "clean" directory target.
-src/lib_python/pybind11/clean:
-.PHONY : src/lib_python/pybind11/clean
+src/lib_python/src/pybind11/clean:
+.PHONY : src/lib_python/src/pybind11/clean
 
 #=============================================================================
 # Directory level rules for directory src/vizgolf

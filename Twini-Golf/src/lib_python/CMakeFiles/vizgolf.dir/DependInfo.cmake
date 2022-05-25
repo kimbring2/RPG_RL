@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/kimbring2/Twini-Golf/src/lib_python/ViZGolfGamePython.cpp" "src/lib_python/CMakeFiles/vizgolf.dir/ViZGolfGamePython.cpp.o" "gcc" "src/lib_python/CMakeFiles/vizgolf.dir/ViZGolfGamePython.cpp.o.d"
-  "/home/kimbring2/Twini-Golf/src/lib_python/ViZGolfPythonModule.cpp" "src/lib_python/CMakeFiles/vizgolf.dir/ViZGolfPythonModule.cpp.o" "gcc" "src/lib_python/CMakeFiles/vizgolf.dir/ViZGolfPythonModule.cpp.o.d"
+  "/home/kimbring2/Twini-Golf/src/lib_python/src/ViZGolfGamePython.cpp" "src/lib_python/CMakeFiles/vizgolf.dir/src/ViZGolfGamePython.cpp.o" "gcc" "src/lib_python/CMakeFiles/vizgolf.dir/src/ViZGolfGamePython.cpp.o.d"
+  "/home/kimbring2/Twini-Golf/src/lib_python/src/ViZGolfPythonModule.cpp" "src/lib_python/CMakeFiles/vizgolf.dir/src/ViZGolfPythonModule.cpp.o" "gcc" "src/lib_python/CMakeFiles/vizgolf.dir/src/ViZGolfPythonModule.cpp.o.d"
   )
 
 # Targets to which this target links.

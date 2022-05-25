@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/kimbring2/Twini-Golf/src/lib_python/pybind11/cmake_install.cmake")
+  include("/home/kimbring2/Twini-Golf/src/lib_python/src/pybind11/cmake_install.cmake")
 
 endif()
 

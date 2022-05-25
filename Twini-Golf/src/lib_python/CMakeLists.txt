@@ -1,14 +1,13 @@
 find_package(PythonInterp 3 REQUIRED)
 
-
 set(PYTHON_VERSION_FULL ${PYTHON_VERSION_STRING})
 STRING(REGEX REPLACE "([0-9]+\\.[0-9]+).*" "\\1" PYTHON_VERSION_MINOR ${PYTHON_VERSION_STRING})
 find_package(PythonLibs ${PYTHON_VERSION_MINOR} REQUIRED)
 
-add_subdirectory(pybind11)
+add_subdirectory(src/pybind11)
 link_directories(${PROJECT_SOURCE_DIR})
 
-include_directories(${VIZDOOM_PYTHON_INCLUDE_DIR}
+include_directories(${VIZGOLF_PYTHON_INCLUDE_DIR}
                     ${Boost_INCLUDE_DIR})
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14 -O3 -Wall -m64 -I include")
@@ -17,9 +16,9 @@ set(VIZGOLF_PYTHON_INCLUDE_DIR ${VIZGOLF_INCLUDE_DIR} ${VIZGOLF_PYTHON_SRC_DIR})
 set(VIZGOLF_PYTHON_OUTPUT_DIR ${VIZGOLF_OUTPUT_DIR}/python${PYTHON_VERSION_MINOR})
 
 set(VIZGOLF_PYTHON_SOURCES
-    ${VIZGOLF_PYTHON_SRC_DIR}/ViZGolfGamePython.h
-    ${VIZGOLF_PYTHON_SRC_DIR}/ViZGolfGamePython.cpp
-    ${VIZGOLF_PYTHON_SRC_DIR}/ViZGolfPythonModule.cpp)
+    ${VIZGOLF_PYTHON_SRC_DIR}/src/ViZGolfGamePython.h
+    ${VIZGOLF_PYTHON_SRC_DIR}/src/ViZGolfGamePython.cpp
+    ${VIZGOLF_PYTHON_SRC_DIR}/src/ViZGolfPythonModule.cpp)
 
 set(VIZGOLF_PYTHON_LIBS
     ${VIZGOLF_LIBS}

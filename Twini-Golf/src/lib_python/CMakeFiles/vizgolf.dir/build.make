@@ -69,44 +69,44 @@ include src/lib_python/CMakeFiles/vizgolf.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/lib_python/CMakeFiles/vizgolf.dir/flags.make
 
-src/lib_python/CMakeFiles/vizgolf.dir/ViZGolfGamePython.cpp.o: src/lib_python/CMakeFiles/vizgolf.dir/flags.make
-src/lib_python/CMakeFiles/vizgolf.dir/ViZGolfGamePython.cpp.o: src/lib_python/ViZGolfGamePython.cpp
-src/lib_python/CMakeFiles/vizgolf.dir/ViZGolfGamePython.cpp.o: src/lib_python/CMakeFiles/vizgolf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kimbring2/Twini-Golf/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/lib_python/CMakeFiles/vizgolf.dir/ViZGolfGamePython.cpp.o"
-	cd /home/kimbring2/Twini-Golf/src/lib_python && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/lib_python/CMakeFiles/vizgolf.dir/ViZGolfGamePython.cpp.o -MF CMakeFiles/vizgolf.dir/ViZGolfGamePython.cpp.o.d -o CMakeFiles/vizgolf.dir/ViZGolfGamePython.cpp.o -c /home/kimbring2/Twini-Golf/src/lib_python/ViZGolfGamePython.cpp
+src/lib_python/CMakeFiles/vizgolf.dir/src/ViZGolfGamePython.cpp.o: src/lib_python/CMakeFiles/vizgolf.dir/flags.make
+src/lib_python/CMakeFiles/vizgolf.dir/src/ViZGolfGamePython.cpp.o: src/lib_python/src/ViZGolfGamePython.cpp
+src/lib_python/CMakeFiles/vizgolf.dir/src/ViZGolfGamePython.cpp.o: src/lib_python/CMakeFiles/vizgolf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kimbring2/Twini-Golf/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/lib_python/CMakeFiles/vizgolf.dir/src/ViZGolfGamePython.cpp.o"
+	cd /home/kimbring2/Twini-Golf/src/lib_python && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/lib_python/CMakeFiles/vizgolf.dir/src/ViZGolfGamePython.cpp.o -MF CMakeFiles/vizgolf.dir/src/ViZGolfGamePython.cpp.o.d -o CMakeFiles/vizgolf.dir/src/ViZGolfGamePython.cpp.o -c /home/kimbring2/Twini-Golf/src/lib_python/src/ViZGolfGamePython.cpp
 
-src/lib_python/CMakeFiles/vizgolf.dir/ViZGolfGamePython.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vizgolf.dir/ViZGolfGamePython.cpp.i"
-	cd /home/kimbring2/Twini-Golf/src/lib_python && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kimbring2/Twini-Golf/src/lib_python/ViZGolfGamePython.cpp > CMakeFiles/vizgolf.dir/ViZGolfGamePython.cpp.i
+src/lib_python/CMakeFiles/vizgolf.dir/src/ViZGolfGamePython.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vizgolf.dir/src/ViZGolfGamePython.cpp.i"
+	cd /home/kimbring2/Twini-Golf/src/lib_python && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kimbring2/Twini-Golf/src/lib_python/src/ViZGolfGamePython.cpp > CMakeFiles/vizgolf.dir/src/ViZGolfGamePython.cpp.i
 
-src/lib_python/CMakeFiles/vizgolf.dir/ViZGolfGamePython.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vizgolf.dir/ViZGolfGamePython.cpp.s"
-	cd /home/kimbring2/Twini-Golf/src/lib_python && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kimbring2/Twini-Golf/src/lib_python/ViZGolfGamePython.cpp -o CMakeFiles/vizgolf.dir/ViZGolfGamePython.cpp.s
+src/lib_python/CMakeFiles/vizgolf.dir/src/ViZGolfGamePython.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vizgolf.dir/src/ViZGolfGamePython.cpp.s"
+	cd /home/kimbring2/Twini-Golf/src/lib_python && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kimbring2/Twini-Golf/src/lib_python/src/ViZGolfGamePython.cpp -o CMakeFiles/vizgolf.dir/src/ViZGolfGamePython.cpp.s
 
-src/lib_python/CMakeFiles/vizgolf.dir/ViZGolfPythonModule.cpp.o: src/lib_python/CMakeFiles/vizgolf.dir/flags.make
-src/lib_python/CMakeFiles/vizgolf.dir/ViZGolfPythonModule.cpp.o: src/lib_python/ViZGolfPythonModule.cpp
-src/lib_python/CMakeFiles/vizgolf.dir/ViZGolfPythonModule.cpp.o: src/lib_python/CMakeFiles/vizgolf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kimbring2/Twini-Golf/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/lib_python/CMakeFiles/vizgolf.dir/ViZGolfPythonModule.cpp.o"
-	cd /home/kimbring2/Twini-Golf/src/lib_python && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/lib_python/CMakeFiles/vizgolf.dir/ViZGolfPythonModule.cpp.o -MF CMakeFiles/vizgolf.dir/ViZGolfPythonModule.cpp.o.d -o CMakeFiles/vizgolf.dir/ViZGolfPythonModule.cpp.o -c /home/kimbring2/Twini-Golf/src/lib_python/ViZGolfPythonModule.cpp
+src/lib_python/CMakeFiles/vizgolf.dir/src/ViZGolfPythonModule.cpp.o: src/lib_python/CMakeFiles/vizgolf.dir/flags.make
+src/lib_python/CMakeFiles/vizgolf.dir/src/ViZGolfPythonModule.cpp.o: src/lib_python/src/ViZGolfPythonModule.cpp
+src/lib_python/CMakeFiles/vizgolf.dir/src/ViZGolfPythonModule.cpp.o: src/lib_python/CMakeFiles/vizgolf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kimbring2/Twini-Golf/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/lib_python/CMakeFiles/vizgolf.dir/src/ViZGolfPythonModule.cpp.o"
+	cd /home/kimbring2/Twini-Golf/src/lib_python && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/lib_python/CMakeFiles/vizgolf.dir/src/ViZGolfPythonModule.cpp.o -MF CMakeFiles/vizgolf.dir/src/ViZGolfPythonModule.cpp.o.d -o CMakeFiles/vizgolf.dir/src/ViZGolfPythonModule.cpp.o -c /home/kimbring2/Twini-Golf/src/lib_python/src/ViZGolfPythonModule.cpp
 
-src/lib_python/CMakeFiles/vizgolf.dir/ViZGolfPythonModule.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vizgolf.dir/ViZGolfPythonModule.cpp.i"
-	cd /home/kimbring2/Twini-Golf/src/lib_python && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kimbring2/Twini-Golf/src/lib_python/ViZGolfPythonModule.cpp > CMakeFiles/vizgolf.dir/ViZGolfPythonModule.cpp.i
+src/lib_python/CMakeFiles/vizgolf.dir/src/ViZGolfPythonModule.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vizgolf.dir/src/ViZGolfPythonModule.cpp.i"
+	cd /home/kimbring2/Twini-Golf/src/lib_python && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kimbring2/Twini-Golf/src/lib_python/src/ViZGolfPythonModule.cpp > CMakeFiles/vizgolf.dir/src/ViZGolfPythonModule.cpp.i
 
-src/lib_python/CMakeFiles/vizgolf.dir/ViZGolfPythonModule.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vizgolf.dir/ViZGolfPythonModule.cpp.s"
-	cd /home/kimbring2/Twini-Golf/src/lib_python && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kimbring2/Twini-Golf/src/lib_python/ViZGolfPythonModule.cpp -o CMakeFiles/vizgolf.dir/ViZGolfPythonModule.cpp.s
+src/lib_python/CMakeFiles/vizgolf.dir/src/ViZGolfPythonModule.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vizgolf.dir/src/ViZGolfPythonModule.cpp.s"
+	cd /home/kimbring2/Twini-Golf/src/lib_python && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kimbring2/Twini-Golf/src/lib_python/src/ViZGolfPythonModule.cpp -o CMakeFiles/vizgolf.dir/src/ViZGolfPythonModule.cpp.s
 
 # Object files for target vizgolf
 vizgolf_OBJECTS = \
-"CMakeFiles/vizgolf.dir/ViZGolfGamePython.cpp.o" \
-"CMakeFiles/vizgolf.dir/ViZGolfPythonModule.cpp.o"
+"CMakeFiles/vizgolf.dir/src/ViZGolfGamePython.cpp.o" \
+"CMakeFiles/vizgolf.dir/src/ViZGolfPythonModule.cpp.o"
 
 # External object files for target vizgolf
 vizgolf_EXTERNAL_OBJECTS =
 
-src/lib_python/vizgolf.cpython-38-x86_64-linux-gnu.so: src/lib_python/CMakeFiles/vizgolf.dir/ViZGolfGamePython.cpp.o
-src/lib_python/vizgolf.cpython-38-x86_64-linux-gnu.so: src/lib_python/CMakeFiles/vizgolf.dir/ViZGolfPythonModule.cpp.o
+src/lib_python/vizgolf.cpython-38-x86_64-linux-gnu.so: src/lib_python/CMakeFiles/vizgolf.dir/src/ViZGolfGamePython.cpp.o
+src/lib_python/vizgolf.cpython-38-x86_64-linux-gnu.so: src/lib_python/CMakeFiles/vizgolf.dir/src/ViZGolfPythonModule.cpp.o
 src/lib_python/vizgolf.cpython-38-x86_64-linux-gnu.so: src/lib_python/CMakeFiles/vizgolf.dir/build.make
 src/lib_python/vizgolf.cpython-38-x86_64-linux-gnu.so: src/lib_python/libgolf_game.so
 src/lib_python/vizgolf.cpython-38-x86_64-linux-gnu.so: src/lib_python/libgolf_controller.so
