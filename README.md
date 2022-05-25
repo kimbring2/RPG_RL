@@ -9,7 +9,7 @@ Playing the MMORPG using the Deep Reinforcement Learning. The Nethack and Diablo
 5. Simple SDL2 game: https://github.com/PolyMarsDev/Twini-Golf
 
 # Detailed intruction for code
-1. 
+1. How to binding a C++ STL game with Python: https://dohyeongkim.medium.com/playing-the-diablo1-using-deep-learning-series-1-e03cd7127c46
 
 # NetHack
 Visualization tool is added to original NLE of Facebook code.
