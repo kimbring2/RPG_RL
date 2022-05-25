@@ -1,0 +1,13 @@
+/home/kimbring2/Twini-Golf/src/CMakeFiles/libvizgolf_static.dir
+/home/kimbring2/Twini-Golf/src/CMakeFiles/libvizgolf_shared.dir
+/home/kimbring2/Twini-Golf/src/CMakeFiles/edit_cache.dir
+/home/kimbring2/Twini-Golf/src/CMakeFiles/rebuild_cache.dir
+/home/kimbring2/Twini-Golf/src/src/lib_python/CMakeFiles/golf_class.dir
+/home/kimbring2/Twini-Golf/src/src/lib_python/CMakeFiles/golf.dir
+/home/kimbring2/Twini-Golf/src/src/lib_python/CMakeFiles/edit_cache.dir
+/home/kimbring2/Twini-Golf/src/src/lib_python/CMakeFiles/rebuild_cache.dir
+/home/kimbring2/Twini-Golf/src/src/lib_python/pybind11/CMakeFiles/edit_cache.dir
+/home/kimbring2/Twini-Golf/src/src/lib_python/pybind11/CMakeFiles/rebuild_cache.dir
+/home/kimbring2/Twini-Golf/src/src/vizgolf/CMakeFiles/vizgolf.dir
+/home/kimbring2/Twini-Golf/src/src/vizgolf/CMakeFiles/edit_cache.dir
+/home/kimbring2/Twini-Golf/src/src/vizgolf/CMakeFiles/rebuild_cache.dir
