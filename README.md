@@ -22,10 +22,10 @@ You can play a game yourself by below command.
 $ python3.8 -m nle.scripts.play --env NetHackChallenge-v0
 ```
 
-# Simple C++ SDL game
+# Simple C++ SDL2 game
 You can control the SDL2 C++ game using Python.
 
-[![Python binding test for the golf game]([https://i3.ytimg.com/vi/fuBFcSBd8v8/hqdefault.jpg](https://img.youtube.com/vi/sEmLVRSOaHA/sddefault.jpg))](https://www.youtube.com/watch?v=sEmLVRSOaHA)
+[![Python binding test for simple C++ SDL2 game](https://img.youtube.com/vi/sEmLVRSOaHA/sddefault.jpg)](https://www.youtube.com/watch?v=sEmLVRSOaHA)
 
 Move to [Twini-Golf folder](https://github.com/kimbring2/RPG_RL/tree/main/Twini-Golf) and build project using below command.
 
