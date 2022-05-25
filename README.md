@@ -27,7 +27,7 @@ You can control the SDL2 C++ game using Python.
 
 [![Python binding test for simple C++ SDL2 game](https://img.youtube.com/vi/sEmLVRSOaHA/sddefault.jpg)](https://www.youtube.com/watch?v=sEmLVRSOaHA)
 
-I set every path as relatively except OpenCV. You need to change the OpenCV_DIR path of [main CMakeLists.txt](https://github.com/kimbring2/RPG_RL/blob/main/Twini-Golf/CMakeLists.txt) to your OpenCV path.
+I set every path as relatively except path for OpenCV. You need to change the OpenCV_DIR path of [main CMakeLists.txt](https://github.com/kimbring2/RPG_RL/blob/main/Twini-Golf/CMakeLists.txt) to your OpenCV path.
 
 ```
 set(OpenCV_DIR /home/kimbring2/opencv/build)
