@@ -6,7 +6,7 @@
 #include <boost/chrono.hpp>
 #include <boost/lexical_cast.hpp>
 
-#include <stdio.h>  /* defines FILENAME_MAX */
+#include <stdio.h>
 #include <unistd.h>
 
 using namespace cv;
@@ -46,11 +46,12 @@ namespace vizgolf {
     }
 
     GolfController::~GolfController() {
-        std::cout << "GolfController::~GolfController()" << std::endl;
+        //std::cout << "GolfController::~GolfController()" << std::endl;
+        ;
     }
 
     bool GolfController::init() {
-        std::cout << "GolfController::init()" << std::endl;
+        //std::cout << "GolfController::init()" << std::endl;
         
         if (!this->golfRunning) {
             try {
@@ -104,7 +105,7 @@ namespace vizgolf {
     }
 
     void GolfController::handleSignals() {
-        std::cout << "GolfController::handleSignals()" << std::endl;
+        //std::cout << "GolfController::handleSignals()" << std::endl;
 
         this->ioService = new ba::io_service();
         ba::signal_set signals(*this->ioService, SIGINT, SIGABRT, SIGTERM);
@@ -126,11 +127,16 @@ namespace vizgolf {
     bool GolfController::isGolfRunning() { return this->golfRunning; }
 
     void GolfController::launchGolf() {
-        std::cout << "GolfController::launchGolf()" << std::endl;
-        //char cCurrentPath[FILENAME_MAX];
+        //std::cout << "GolfController::launchGolf()" << std::endl;
+
+        char tmp[256];
+        getcwd(tmp, 256);
+        //std::cout << "Executable file location: " << std::string(tmp) + "/twingolf" << std::endl;
+
         this->golfRunning = true;
 
-        this->golfArgs.push_back("/home/kimbring2/Twini-Golf/src/vizgolf/twingolf");
+        //this->golfArgs.push_back("/home/kimbring2/Twini-Golf/src/vizgolf/twingolf");
+        this->golfArgs.push_back(std::string(tmp) + "/twingolf");
         this->golfArgs.push_back("+viz_instance_id");
         this->golfArgs.push_back(this->instanceId);
 
@@ -153,7 +159,7 @@ namespace vizgolf {
         //for(int i = 0 ; i < strlen(this->instanceId) ; i ++ ){
         //    std::cout << "this->instanceId[i]" << this->instanceId[i] << std::endl;
         //}
-        printf("(this->instanceId).c_str(): %s\n", (this->instanceId).c_str());
+        //printf("(this->instanceId).c_str(): %s\n", (this->instanceId).c_str());
     }
 
     uint8_t *const GolfController::getScreenBuffer() {
