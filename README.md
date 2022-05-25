@@ -27,13 +27,23 @@ You can control the SDL2 C++ game using Python.
 
 [![Python binding test for simple C++ SDL2 game](https://img.youtube.com/vi/sEmLVRSOaHA/sddefault.jpg)](https://www.youtube.com/watch?v=sEmLVRSOaHA)
 
-Move to [Twini-Golf folder](https://github.com/kimbring2/RPG_RL/tree/main/Twini-Golf) and build project using below command.
+I set every path as relatively except OpenCV. You need to change the OpenCV_DIR path of [main CMakeLists.txt](https://github.com/kimbring2/RPG_RL/blob/main/Twini-Golf/CMakeLists.txt) to your OpenCV path.
+
+```
+set(OpenCV_DIR /home/kimbring2/opencv/build)
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+```
+
+Then, move to [Twini-Golf folder](https://github.com/kimbring2/RPG_RL/tree/main/Twini-Golf) and build project using below command.
 
 ```
 $ cmake .
 $ make
 ```
 
-Then, move to [lib_python folder](https://github.com/kimbring2/RPG_RL/tree/main/Twini-Golf/src/lib_python). You should check there is 'vizgolf.cpython-38-x86_64-linux-gnu.so' that was built. 
+You should check there is 'vizgolf.cpython-38-x86_64-linux-gnu.so' under [lib_python folder](https://github.com/kimbring2/RPG_RL/tree/main/Twini-Golf/src/lib_python) folder. Next, copy the [twingolf](https://github.com/kimbring2/RPG_RL/blob/main/Twini-Golf/src/vizgolf/twingolf) file to the lib_python folder.
+
+Then, move to [lib_python folder](https://github.com/kimbring2/RPG_RL/tree/main/Twini-Golf/src/lib_python).
 
 Open Jupyter Notebook for 'env_test.ipynb' and test code of video.
