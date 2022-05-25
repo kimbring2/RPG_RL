@@ -1,3 +1,0 @@
-/home/kimbring2/Twini-Golf/src/vizgolf/CMakeFiles/vizgolf.dir
-/home/kimbring2/Twini-Golf/src/vizgolf/CMakeFiles/edit_cache.dir
-/home/kimbring2/Twini-Golf/src/vizgolf/CMakeFiles/rebuild_cache.dir

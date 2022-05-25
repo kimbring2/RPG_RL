@@ -1,2 +1,0 @@
-/usr/bin/ar qc libvizgolf.a CMakeFiles/libvizgolf_static.dir/lib/ViZGolfController.cpp.o CMakeFiles/libvizgolf_static.dir/lib/ViZGolfGame.cpp.o
-/usr/bin/ranlib libvizgolf.a
