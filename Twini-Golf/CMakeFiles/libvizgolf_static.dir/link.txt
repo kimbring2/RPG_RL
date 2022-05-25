@@ -1,2 +1,0 @@
-/usr/bin/ar qc libvizgolf.a CMakeFiles/libvizgolf_static.dir/src/lib/ViZGolfController.cpp.o CMakeFiles/libvizgolf_static.dir/src/lib/ViZGolfExceptions.cpp.o CMakeFiles/libvizgolf_static.dir/src/lib/ViZGolfGame.cpp.o CMakeFiles/libvizgolf_static.dir/src/lib/ViZGolfMessageQueue.cpp.o CMakeFiles/libvizgolf_static.dir/src/lib/ViZGolfSharedMemory.cpp.o
-/usr/bin/ranlib libvizgolf.a
