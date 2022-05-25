@@ -16,5 +16,17 @@ Visualization tool is added to original NLE of Facebook code.
 You can play a game yourself by below command.
 
 ```
-python3.8 -m nle.scripts.play --env NetHackChallenge-v0
+$ python3.8 -m nle.scripts.play --env NetHackChallenge-v0
 ```
+
+# Simple SDL game
+Move to [Twini-Golf folder](https://github.com/kimbring2/RPG_RL/tree/main/Twini-Golf) and build project using below command.
+
+```
+$ cmake .
+$ make
+```
+
+Then, move to [lib_python folder](https://github.com/kimbring2/RPG_RL/tree/main/Twini-Golf/src/lib_python). You should check there is 'vizgolf.cpython-38-x86_64-linux-gnu.so' that was built. 
+
+Open Jupyter Notebook for 'env_test.ipynb' or run Python for 'test_code.py'.
