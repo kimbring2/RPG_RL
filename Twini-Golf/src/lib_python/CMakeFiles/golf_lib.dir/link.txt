@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -std=c++14 -O3 -Wall -m64 -I include -std=c++14 -O3 -Wall -m64 -I include -shared -Wl,-soname,libgolf_lib.so -o libgolf_lib.so CMakeFiles/golf_lib.dir/ViZGolfGamePython.cpp.o   -L/home/kimbring2/Twini-Golf/src/lib_python 

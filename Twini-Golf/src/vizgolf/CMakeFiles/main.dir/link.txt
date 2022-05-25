@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++14 -O3 -Wall -m64 -I include -std=c++14 -O3 -Wall -m64 -I include CMakeFiles/main.dir/ball.cpp.o CMakeFiles/main.dir/entity.cpp.o CMakeFiles/main.dir/hole.cpp.o CMakeFiles/main.dir/main.cpp.o CMakeFiles/main.dir/renderwindow.cpp.o CMakeFiles/main.dir/tile.cpp.o -o main  -L/usr/lib64 -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_mixer 
